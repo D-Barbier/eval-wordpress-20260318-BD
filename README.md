@@ -99,4 +99,5 @@ Dans le fichier `index.php`, entre l'en-tête et le pied de page :
 3. Inclure le fichier SQL dans un répertoire "SQL" de votre dépôt.
 4. COMMIT + PUSH le fichier SQL
     - Message de COMMIT "Sauvegarde SQL OK"
+  
 

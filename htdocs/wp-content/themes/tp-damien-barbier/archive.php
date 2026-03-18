@@ -4,7 +4,6 @@ get_header();
 
 <section class="flex">
 
-
     <?php
     if (have_posts()):
         while (have_posts()):
@@ -44,9 +43,6 @@ get_header();
     dynamic_sidebar('main-sidebar');
     ?>
 </aside>
-
-
-
 
 <?php
 get_footer();
