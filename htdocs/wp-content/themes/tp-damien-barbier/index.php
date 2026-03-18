@@ -24,7 +24,7 @@ get_header();
                     <?php the_category(); ?>
                 </aside>
 
-                <div>
+                <div class="excerpt">
                     <?php the_excerpt(); ?>
                 </div>
 

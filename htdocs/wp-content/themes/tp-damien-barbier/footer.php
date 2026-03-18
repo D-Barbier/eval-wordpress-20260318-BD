@@ -3,7 +3,7 @@
 
 
 
-<footer>
+<footer id="mainFooter">
     <p id="copyright">
         Copyright 2026 DWWM2503 DAMIEN BARBIER
     </p>

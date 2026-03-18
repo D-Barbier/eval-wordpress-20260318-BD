@@ -11,7 +11,7 @@ get_header();
             the_post();
     ?>
 
-            <article>
+            <article id="article-page">
                 <header>
                     <h2><?php the_title(); ?></h2>
                     <?php the_author_link(); ?>
@@ -25,7 +25,6 @@ get_header();
                 <footer>
                     <?php the_category(); ?>
                 </footer>
-
             </article>
 
 

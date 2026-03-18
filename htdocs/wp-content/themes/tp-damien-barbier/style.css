@@ -12,6 +12,9 @@ body {
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 * {
@@ -62,24 +65,27 @@ header .menu-item >a:hover{
 main{
     width: 80%;
     margin: auto;
+    flex: 1;
 }
 
-
+.excerpt, .article-content {
+    justify-content: justify;
+}
 /* FIN MAIN */
 
 
 /* DEBUT FOOTER */
 
-footer .menu-item{
+#mainFooter .menu-item{
     list-style: none;
 }
-footer .menu-item >a{
+#mainFooter .menu-item >a{
     text-decoration: none;
     cursor: pointer;
     padding: 1rem;
 }
 
-footer .menu-item >a:hover{
+#mainFooter .menu-item >a:hover{
     background-color: var(--color4);
 }
 
@@ -91,9 +97,15 @@ footer .menu-item >a:hover{
     color: var(--color2);
 }
 
-footer{
+#mainFooter{
     background-color: var(--color1);
     padding: 1rem;
+}
+
+#githubLink{
+    display: block;
+    text-align: center;
+    cursor: pointer;
 }
 
 /* FIN FOOTER */
