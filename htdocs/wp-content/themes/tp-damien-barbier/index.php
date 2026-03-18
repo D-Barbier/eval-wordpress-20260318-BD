@@ -17,6 +17,7 @@ get_header();
                     <?php the_title();
                     ?>
                 </a></h2>
+                <?php the_post_thumbnail('thumbnail'); ?>
                 <aside>
                     <?php the_date(); ?>
                     <?php the_author_link(); ?>

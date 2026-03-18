@@ -22,20 +22,14 @@ get_header();
 
                 <tbody>
                     <tr>
-                        <?php the_title(); ?>
-                    </tr>
-                    <tr>
-                        <?php the_date(); ?>
-                    </tr>
-                    <tr>
-                        <?php the_author_link(); ?>
-                    </tr>
-                    <tr>
-                        <?php the_permalink(); ?>
+                        <td><?php the_title(); ?></td>
+                        <td><?php echo get_the_date(); ?></td>
+                        <td> <?php the_author_link(); ?></td>
+                        <td><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></td>
                     </tr>
                 </tbody>
             </table>
-            
+
     <?php
         endwhile;
     else:

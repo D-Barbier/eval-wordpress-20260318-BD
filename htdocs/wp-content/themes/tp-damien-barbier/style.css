@@ -33,17 +33,24 @@ body {
 #menu-mainmenu{
     display: flex;
     gap: 1rem;
-    padding: 0rem;
-    margin: 1rem;
+    padding: 1rem 0rem;
+    margin: 0rem;
+    background-color: var(--color1);
 }
 
-.menu-item{
+header .menu-item{
     list-style: none;
 }
 
-.menu-item > a{
+header .menu-item > a{
     text-decoration: none;
     padding: 1rem;
+    color: var(--color2);
+    cursor: pointer;
+}
+
+header .menu-item >a:hover{
+    background-color: var(--color4);
 }
 
 /* FIN HEADER */
@@ -53,8 +60,76 @@ body {
 /* DEBUT MAIN */ 
 
 main{
+    width: 80%;
+    margin: auto;
+}
+
+
+/* FIN MAIN */
+
+
+/* DEBUT FOOTER */
+
+footer .menu-item{
+    list-style: none;
+}
+footer .menu-item >a{
+    text-decoration: none;
+    cursor: pointer;
+    padding: 1rem;
+}
+
+footer .menu-item >a:hover{
+    background-color: var(--color4);
+}
+
+#copyright{
+    text-align: center;
+}
+
+#copyright , .menu-item >a{
+    color: var(--color2);
+}
+
+footer{
+    background-color: var(--color1);
+    padding: 1rem;
+}
+
+/* FIN FOOTER */
+
+/* DEBUT BANNIERE */
+
+.banniere{
+
+    background-color: var(--color3);
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    padding-top: 4rem;
+    padding-bottom: 0.5rem;
+    padding: 1rem;
+
+}
+
+.banniere > h2, .banniere > p{
+
+    color: var(--color2);
+}
+
+#bn_wp{
+    color: var(--color4);
+}
+
+
+/* FIN BANNIERE */
+
+
+@media (min-width: 768px) {
+
+
+main{
     display: flex;
-    width: 120rem;
     margin: auto;
     gap: 0.5rem;
 }
@@ -67,36 +142,5 @@ main > aside {
     width: 30%;
 }
 
-/* FIN MAIN */
-
-
-/* DEBUT FOOTER */
-
-
-/* FIN FOOTER */
-
-/* DEBUT BANNIERE */
-
-.banniere{
-
-    background-color: var(--color3);
-    text-align: center;
-    width: 120rem;
-    margin: auto;
-    padding: 2rem;
 
 }
-
-.banniere > h2,p{
-
-    color: var(--color2);
-}
-
-#bn_wp{
-    color: var(--color4);
-}
-
-
-
-
-/* FIN BANNIERE */
