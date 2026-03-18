@@ -12,21 +12,19 @@ get_header();
     ?>
 
             <article>
-                
-                <h2><a href="<?php the_permalink() ?>">
-                    <?php the_title();
-                    ?>
-                </a></h2>
-                <aside>
-                    <?php the_date(); ?>
+                <header>
+                    <h2><?php the_title(); ?></h2>
                     <?php the_author_link(); ?>
-                    <?php the_category(); ?>
-                </aside>
+                    <?php the_date(); ?>
+                </header>
 
-                <div>
+                <div class="article-content">`
                     <?php the_excerpt(); ?>
                 </div>
 
+                <footer>
+                    <?php the_category(); ?>
+                </footer>
 
             </article>
 

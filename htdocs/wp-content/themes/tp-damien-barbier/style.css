@@ -1,3 +1,102 @@
 /*
     Theme Name : tp-damien-barbier
 */
+
+/* DEBUT BASE */
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.6rem;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --color1: black;
+    --color2: white;
+    --color3: blue;
+    --color4: orange;
+}
+
+/* FIN BASE */
+
+
+/* DEBUT HEADER */
+
+#menu-mainmenu{
+    display: flex;
+    gap: 1rem;
+    padding: 0rem;
+    margin: 1rem;
+}
+
+.menu-item{
+    list-style: none;
+}
+
+.menu-item > a{
+    text-decoration: none;
+    padding: 1rem;
+}
+
+/* FIN HEADER */
+
+
+
+/* DEBUT MAIN */ 
+
+main{
+    display: flex;
+    width: 120rem;
+    margin: auto;
+    gap: 0.5rem;
+}
+
+.flex{
+    width: 70%;
+}
+
+main > aside {
+    width: 30%;
+}
+
+/* FIN MAIN */
+
+
+/* DEBUT FOOTER */
+
+
+/* FIN FOOTER */
+
+/* DEBUT BANNIERE */
+
+.banniere{
+
+    background-color: var(--color3);
+    text-align: center;
+    width: 120rem;
+    margin: auto;
+    padding: 2rem;
+
+}
+
+.banniere > h2,p{
+
+    color: var(--color2);
+}
+
+#bn_wp{
+    color: var(--color4);
+}
+
+
+
+
+/* FIN BANNIERE */
